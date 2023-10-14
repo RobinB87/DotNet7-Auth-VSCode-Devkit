@@ -3,7 +3,7 @@
 {
 	"name": "C# (.NET) with C# Dev Kit",
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
-	"image": "mcr.microsoft.com/dotnet/sdk:8.0",
+	"build": { "dockerfile": "Dockerfile" },
 	"customizations": {
 		"vscode": {
 			"extensions": ["ms-dotnettools.csdevkit"]

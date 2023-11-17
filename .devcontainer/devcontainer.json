@@ -1,12 +1,12 @@
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the
 // README at: https://github.com/devcontainers/templates/tree/main/src/dotnet
 {
-	"name": "C# (.NET) with C# Dev Kit",
+	"name": "dotnet 8 sdk with sqlite",
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
 	"build": { "dockerfile": "Dockerfile" },
 	"customizations": {
 		"vscode": {
-			"extensions": ["ms-dotnettools.csdevkit"]
+			"extensions": ["alexcvzz.vscode-sqlite", "ms-dotnettools.csdevkit"]
 		}
 	}
 

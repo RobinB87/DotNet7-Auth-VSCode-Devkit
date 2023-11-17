@@ -1,0 +1,30 @@
+### Register
+POST http://localhost:5084/register
+Content-Type: application/json
+
+{
+    "email": "bla@bla.com",
+    "username": "robyy",
+    "password": "Pwsdf!sdf123",
+}
+
+### Login
+POST http://localhost:5084/login
+Content-Type: application/json
+
+{
+    "email": "bla@bla.com",
+    "password": "Pwsdf!sdf123"
+}
+
+### Get Hello!
+GET http://localhost:5084
+Authorization: Bearer CfDJ8ITyQtbEltRClCCdCYXM0ncs3FwTMWmjSBgI-o_3N4yjPp1tUwla61d_yaPv0N-Kiw-UVRVxevxBwIYt3QDEU7NYW8rwQlCnaiMhYjAreOKwCmvp-d1w-lZWaToQWzh--2AzqYVAmvEmhKedsg9q4aknVCpYtF0axOE7qq1XKAe6X1NeqJd3OApiEsySaV9J0tPEWAr_egEQ7g5a-Ycc_66k8ZNaeViF2YtGzRWOG124bREeyTsAPsGGwwvihkOz63nftVLFIAQhn_3nyO-j_ggTrpsQ5o5oEVOeADBmBfa_AVkPL2HZwosGBWAV2g_qAOvTktPm9xzxLKtv2ES8K7TV-CeCkpBKQCQE1WP7rhThi40T3vQs5xawc9ePTUW6mWBHbGLbVrFu4YX9hnHE1EC4MjBGqx3N795hs5fOA3HXw-k6L3_D2kD2065LgbVXj3_gJKpynD19lOSEUWVQ39qaBtYhbh7Be4VEdE1YNGfzHP8Pra6o-ThFpL2vem8tuDUBs_BWvTwcI2K2M1N4jr4iTHxSCsF6ugiH0TVV-5EKdpGvd4dM_m8tiEKHygdB_GuD2IltolUktgVyK7uGhqBTZUauv5L8zVY22hnrWP3WaA4glwxPICzZGjmYUvinYflQ0QUK1ZhIZr2NQZ0Tfcs0jcwHTAf-JiZuhfEAgccrgL_X0q6cU-mB2h1AfdgC3g
+
+### Refresh
+POST http://localhost:5084/refresh
+Content-Type: application/json
+
+{
+    "refreshToken": "CfDJ8ITyQtbEltRClCCdCYXM0nd74yaS8RPCPQvWelGeLaHpwSahUsYpsaCF2-w5v7VZEBBuGQZJCGVecdEXi6BdI90WH3JhB6tHr-QiN-B1xoNhvCsSpRD2UtwRN_I5TheWJ-QBbQ5DH0AxRggJl9_W4-LjDgrX7CMJShZ-Kqm_3NPFT7aXY3r6lq7hxbUqCuWs72ge9hTuEkKg6l_9I9fjiu70QG9IsXNPLWyd066hBMW3bkq8CtkZ-PZhxjLEH-jXdYln0IWhlZLUdxDENVPZU0QyFMMwKkZ9sAJ-wbtaK4YucBrk8Ndmt03sjfcgV_VOD9BAPgnTct-_yAgkmUz5OHDwczeEsPy573U5pDhfFmk2aFUBGchWa9H6a2QkL_rcWFG3Dv7BHuKckUjBBh0ceO-CvHyMLncnOa40akdMWs13ei63-yyQjc_JoWAtMQ8VmNwRk1-GpFtkxhoN6PKiiVoNYb9gs4LZJubd99TESLPnMt1L8vNo-H3EZd9OxjC5v1t8rtHCS7BgYvUEZ3Mb_vLpbR5HCwoceXBFcTOHHacRbTa6T4aSw3INfX_C1PwC12qGrHXVxkFkAsIMFTKoedRpg43VFGwoy8enRUWazfOkmNRpey2OyLCu6AoQaw_iIh3xYh7NNQG4RGYR7z5zGmweknxqmxj80yokwaAGE5jkEQQNa4Wyqg_XzhPWd7az-Q"
+}

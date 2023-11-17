@@ -6,15 +6,15 @@
 	"build": { "dockerfile": "Dockerfile" },
 	"customizations": {
 		"vscode": {
-			"extensions": ["alexcvzz.vscode-sqlite", "ms-dotnettools.csdevkit"]
+			"extensions": ["alexcvzz.vscode-sqlite", "humao.rest-client", "ms-dotnettools.csdevkit"]
 		}
-	}
+	},
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
-	// "forwardPorts": [5000, 5001],
+	"forwardPorts": [5000, 5084]
 	// "portsAttributes": {
 	//		"5001": {
 	//			"protocol": "https"
